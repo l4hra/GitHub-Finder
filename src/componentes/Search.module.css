@@ -1,0 +1,50 @@
+.search{
+    background-image:url(src/componentes/bg.github.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding:2rem;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    margin-bottom:1.5rem;
+}
+
+@media screen and (max-width:500px){
+    .search{
+        width:350px;
+        justify-align:center;
+        
+    }
+    body{
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+    }
+}
+
+.search p{
+    color:#9da5d1;
+}
+
+.search_container{
+    display:flex;
+    gap:0.5rem;
+}
+
+.search_container input,
+.search_container button{
+    padding: .6rem;
+    border-radius:4px;
+    border:none;
+    color: #2b3566;
+}
+
+.search_container button{
+    background-color:#0e1129;
+    cursor:pointer;
+}
